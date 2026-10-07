@@ -15,30 +15,33 @@
 
 
 
-
-// class HomePage {
-
-
-//     value = 'Playwright'
+//import & export
 
 
-//     print() {
-//         console.log('Hello, World!')
-//     }
+
+class HomePage {
 
 
-//     validate() {
-//         console.log('Validating...')
-//     }
-
-// }
+    value = 'Playwright'
 
 
-// const home = new HomePage()
+    print() {
+        console.log('Hello, World!')
+    }
 
-// home.print()
 
-// home.validate()
+    validate() {
+        console.log('Validating...')
+    }
+
+}
+
+
+const home = new HomePage()
+
+home.print()
+
+home.validate()
 
 
 

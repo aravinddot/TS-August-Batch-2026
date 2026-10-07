@@ -9,16 +9,19 @@
 // 7) abstraction
 // 8) access modifiers
 // 9) static members
-// class HomePage {
-//     value = 'Playwright'
-//     print() {
-//         console.log('Hello, World!')
-//     }
-//     validate() {
-//         console.log('Validating...')
-//     }
-// }
-// const home = new HomePage()
-// home.print()
-// home.validate()
+//import & export
+class HomePage {
+    constructor() {
+        this.value = 'Playwright';
+    }
+    print() {
+        console.log('Hello, World!');
+    }
+    validate() {
+        console.log('Validating...');
+    }
+}
+const home = new HomePage();
+home.print();
+home.validate();
 //# sourceMappingURL=class.js.map
