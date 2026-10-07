@@ -4,7 +4,7 @@
 
 class StaticPage {
 
-
+    static staticProperty = 'Static property value'
 
     static print() {
         console.log('Printing static page content')
@@ -19,5 +19,11 @@ class StaticPage {
 
 }
 
-StaticPage.print()
-console.log(StaticPage.value())
+
+
+// StaticPage.print()
+// console.log(StaticPage.value())
+
+
+
+
